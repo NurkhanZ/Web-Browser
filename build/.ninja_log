@@ -1,0 +1,17 @@
+# ninja log v7
+7	752	7761734307055302	CMakeFiles/webBrowser.dir/src/main.cpp.obj	32075752a1fd8d33
+768	909	7761734314669350	webBrowser.exe	c42cc2dfee7eccb6
+5	64	7756664359919106	CMakeFiles/webBrowser.dir/src/test.cpp.obj	92c45bb386d12f99
+13	767	7761734307116363	CMakeFiles/webBrowser.dir/src/SmartWindow.cpp.obj	d66a12039011d6ee
+5	748	7761738922705244	CMakeFiles/webBrowser.dir/src/main.cpp.obj	32075752a1fd8d33
+749	897	7761738930144064	webBrowser.exe	c42cc2dfee7eccb6
+5	779	7761744289182318	CMakeFiles/webBrowser.dir/src/main.cpp.obj	32075752a1fd8d33
+780	917	7761744296936507	webBrowser.exe	c42cc2dfee7eccb6
+4	759	7761744677706919	CMakeFiles/webBrowser.dir/src/main.cpp.obj	32075752a1fd8d33
+761	848	7761744685263899	webBrowser.exe	c42cc2dfee7eccb6
+5	769	7761744849261518	CMakeFiles/webBrowser.dir/src/main.cpp.obj	32075752a1fd8d33
+770	859	7761744856902793	webBrowser.exe	c42cc2dfee7eccb6
+5	725	7761745191534653	CMakeFiles/webBrowser.dir/src/main.cpp.obj	32075752a1fd8d33
+725	811	7761745198731313	webBrowser.exe	c42cc2dfee7eccb6
+4	711	7761745340980209	CMakeFiles/webBrowser.dir/src/main.cpp.obj	32075752a1fd8d33
+712	803	7761745348058196	webBrowser.exe	c42cc2dfee7eccb6
