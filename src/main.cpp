@@ -1,10 +1,13 @@
 #include <iostream>
 #include <SDL.h>
-#include "Window.h"
+// #include "Window.h"
+#include "SmartWindow.h"
 
 using namespace std;
 
 void close();
+
+void checkEvents(SDL_Event event, bool& running);
 
 int main(int argc, char* argv[]){
 
@@ -12,18 +15,26 @@ int main(int argc, char* argv[]){
         std::cerr << "SDL_Error: " << SDL_GetError() << endl;  
     }
 
-    Window g_window;
+    SmartWindow w_window;
 
     SDL_Event event;
     bool running = true;
 
     while(running){
-        // main loopp
-
-        SDL_Quit();
+        // ..
+        checkEvents(event, running);
+        w_window.render();
     }
-
+    close();
     return 0;
+}
+
+void checkEvents(SDL_Event event, bool& running){
+    while(SDL_PollEvent(&event)){
+        if(event.type == SDL_QUIT){
+            running = false;
+        }
+    }
 }
 
 void close(){
