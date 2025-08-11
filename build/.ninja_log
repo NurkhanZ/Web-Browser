@@ -1,6 +1,0 @@
-# ninja log v7
-5	260	7761704566510186	CMakeFiles/webBrowser.dir/src/main.cpp.obj	3e5c1c877b0f4df9
-10	456	7761702457473334	CMakeFiles/webBrowser.dir/src/FontManager.cpp.obj	72e2ae796957e5cf
-260	389	7761704569055422	webBrowser.exe	7f4610b0a3bc173d
-4	702	7761730693824838	CMakeFiles/webBrowser.dir/src/main.cpp.obj	3e5c1c877b0f4df9
-704	843	7761730700816126	webBrowser.exe	7f4610b0a3bc173d
