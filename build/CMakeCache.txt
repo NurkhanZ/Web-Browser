@@ -282,12 +282,6 @@ SDL2_image_DIR:PATH=C:/stuff/programming/C++/msys64/ucrt64/lib/cmake/SDL2_image
 SDL2_ttf_DIR:PATH=C:/stuff/programming/C++/msys64/ucrt64/lib/cmake/SDL2_ttf
 
 //Path to a file.
-SDL_TTF_INCLUDE_DIR:PATH=SDL_TTF_INCLUDE_DIR-NOTFOUND
-
-//Path to a library.
-SDL_TTF_LIBRARY:FILEPATH=SDL_TTF_LIBRARY-NOTFOUND
-
-//Path to a file.
 TIFF_INCLUDE_DIR:PATH=C:/stuff/programming/C++/msys64/ucrt64/include
 
 //Path to a library.
