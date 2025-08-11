@@ -58,6 +58,13 @@ build CMakeFiles/webBrowser.dir/src/FontManager.cpp.obj: CXX_COMPILER__webBrowse
   OBJECT_DIR = CMakeFiles\webBrowser.dir
   OBJECT_FILE_DIR = CMakeFiles\webBrowser.dir\src
 
+build CMakeFiles/webBrowser.dir/src/SmartWindow.cpp.obj: CXX_COMPILER__webBrowser_unscanned_ C$:/Users/User/Desktop/шаг/C++/webBrowser/src/SmartWindow.cpp || cmake_object_order_depends_target_webBrowser
+  DEP_FILE = CMakeFiles\webBrowser.dir\src\SmartWindow.cpp.obj.d
+  FLAGS = -Wall -Wextra -Wshadow -Wformat=2 -Wunused
+  INCLUDES = -IC:/Users/User/Desktop/шаг/C++/webBrowser/include -isystem C:/stuff/programming/C++/msys64/ucrt64/include/SDL2 -isystem C:/stuff/programming/C++/msys64/ucrt64/include/freetype2
+  OBJECT_DIR = CMakeFiles\webBrowser.dir
+  OBJECT_FILE_DIR = CMakeFiles\webBrowser.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target webBrowser
@@ -66,7 +73,7 @@ build CMakeFiles/webBrowser.dir/src/FontManager.cpp.obj: CXX_COMPILER__webBrowse
 #############################################
 # Link the executable webBrowser.exe
 
-build webBrowser.exe: CXX_EXECUTABLE_LINKER__webBrowser_ CMakeFiles/webBrowser.dir/src/main.cpp.obj CMakeFiles/webBrowser.dir/src/FontManager.cpp.obj | C$:/stuff/programming/C++/msys64/ucrt64/lib/libSDL2main.a C$:/stuff/programming/C++/msys64/ucrt64/lib/libSDL2.dll.a C$:/stuff/programming/C++/msys64/ucrt64/lib/libSDL2_image.dll.a C$:/stuff/programming/C++/msys64/ucrt64/lib/libSDL2_ttf.dll.a C$:/stuff/programming/C++/msys64/ucrt64/lib/libfreetype.dll.a
+build webBrowser.exe: CXX_EXECUTABLE_LINKER__webBrowser_ CMakeFiles/webBrowser.dir/src/main.cpp.obj CMakeFiles/webBrowser.dir/src/FontManager.cpp.obj CMakeFiles/webBrowser.dir/src/SmartWindow.cpp.obj | C$:/stuff/programming/C++/msys64/ucrt64/lib/libSDL2main.a C$:/stuff/programming/C++/msys64/ucrt64/lib/libSDL2.dll.a C$:/stuff/programming/C++/msys64/ucrt64/lib/libSDL2_image.dll.a C$:/stuff/programming/C++/msys64/ucrt64/lib/libSDL2_ttf.dll.a C$:/stuff/programming/C++/msys64/ucrt64/lib/libfreetype.dll.a
   LINK_LIBRARIES = -lmingw32  C:/stuff/programming/C++/msys64/ucrt64/lib/libSDL2main.a  C:/stuff/programming/C++/msys64/ucrt64/lib/libSDL2.dll.a  C:/stuff/programming/C++/msys64/ucrt64/lib/libSDL2_image.dll.a  C:/stuff/programming/C++/msys64/ucrt64/lib/libSDL2_ttf.dll.a  C:/stuff/programming/C++/msys64/ucrt64/lib/libfreetype.dll.a  -lshell32  -Wl,--undefined=WinMain  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\webBrowser.dir
   POST_BUILD = cd .

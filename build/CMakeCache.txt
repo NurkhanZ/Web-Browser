@@ -242,14 +242,89 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to a file.
+FREETYPE_INCLUDE_DIR_freetype2:PATH=C:/stuff/programming/C++/msys64/ucrt64/include/freetype2
+
+//Path to a file.
+FREETYPE_INCLUDE_DIR_ft2build:PATH=C:/stuff/programming/C++/msys64/ucrt64/include/freetype2
+
+//Path to a library.
+FREETYPE_LIBRARY_DEBUG:FILEPATH=FREETYPE_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+FREETYPE_LIBRARY_RELEASE:FILEPATH=C:/stuff/programming/C++/msys64/ucrt64/lib/libfreetype.dll.a
+
+//Path to a file.
+JPEG_INCLUDE_DIR:PATH=C:/stuff/programming/C++/msys64/ucrt64/include
+
+//Path to a library.
+JPEG_LIBRARY_DEBUG:FILEPATH=JPEG_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+JPEG_LIBRARY_RELEASE:FILEPATH=C:/stuff/programming/C++/msys64/ucrt64/lib/libjpeg.dll.a
+
+//Path to a library.
+PNG_LIBRARY_DEBUG:FILEPATH=PNG_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+PNG_LIBRARY_RELEASE:FILEPATH=C:/stuff/programming/C++/msys64/ucrt64/lib/libpng.dll.a
+
+//Path to a file.
+PNG_PNG_INCLUDE_DIR:PATH=C:/stuff/programming/C++/msys64/ucrt64/include
+
 //The directory containing a CMake configuration file for SDL2.
 SDL2_DIR:PATH=C:/stuff/programming/C++/msys64/ucrt64/lib/cmake/SDL2
+
+//The directory containing a CMake configuration file for SDL2_image.
+SDL2_image_DIR:PATH=C:/stuff/programming/C++/msys64/ucrt64/lib/cmake/SDL2_image
+
+//The directory containing a CMake configuration file for SDL2_ttf.
+SDL2_ttf_DIR:PATH=C:/stuff/programming/C++/msys64/ucrt64/lib/cmake/SDL2_ttf
 
 //Path to a file.
 SDL_TTF_INCLUDE_DIR:PATH=SDL_TTF_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
 SDL_TTF_LIBRARY:FILEPATH=SDL_TTF_LIBRARY-NOTFOUND
+
+//Path to a file.
+TIFF_INCLUDE_DIR:PATH=C:/stuff/programming/C++/msys64/ucrt64/include
+
+//Path to a library.
+TIFF_LIBRARY_DEBUG:FILEPATH=TIFF_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+TIFF_LIBRARY_RELEASE:FILEPATH=C:/stuff/programming/C++/msys64/ucrt64/lib/libtiff.dll.a
+
+//The directory containing a CMake configuration file for Tiff.
+Tiff_DIR:PATH=Tiff_DIR-NOTFOUND
+
+//Path to a file.
+ZLIB_INCLUDE_DIR:PATH=C:/stuff/programming/C++/msys64/ucrt64/include
+
+//Path to a library.
+ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+ZLIB_LIBRARY_RELEASE:FILEPATH=C:/stuff/programming/C++/msys64/ucrt64/lib/libz.dll.a
+
+//The directory containing a CMake configuration file for libavif.
+libavif_DIR:PATH=C:/stuff/programming/C++/msys64/ucrt64/lib/cmake/libavif
+
+//Extra compile options of libjxl
+libjxl_COMPILE_OPTIONS:STRING=
+
+//Path to a file.
+libjxl_INCLUDE_PATH:PATH=C:/stuff/programming/C++/msys64/ucrt64/include
+
+//Path to a library.
+libjxl_LIBRARY:FILEPATH=C:/stuff/programming/C++/msys64/ucrt64/lib/libjxl.dll.a
+
+//Extra link flags of libjxl
+libjxl_LINK_FLAGS:STRING=
+
+//Extra link libraries of libjxl
+libjxl_LINK_LIBRARIES:STRING=
 
 //Value Computed by CMake
 webBrowser_BINARY_DIR:STATIC=C:/Users/User/Desktop/шаг/C++/webBrowser/build
@@ -259,6 +334,36 @@ webBrowser_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 webBrowser_SOURCE_DIR:STATIC=C:/Users/User/Desktop/шаг/C++/webBrowser
+
+//Extra compile options of webp
+webp_COMPILE_OPTIONS:STRING=
+
+//Path to a file.
+webp_INCLUDE_PATH:PATH=C:/stuff/programming/C++/msys64/ucrt64/include
+
+//Path to a library.
+webp_LIBRARY:FILEPATH=C:/stuff/programming/C++/msys64/ucrt64/lib/libwebp.dll.a
+
+//Extra link flags of webp
+webp_LINK_FLAGS:STRING=
+
+//Extra link libraries of webp
+webp_LINK_LIBRARIES:STRING=
+
+//Extra compile options of webpdemux
+webpdemux_COMPILE_OPTIONS:STRING=
+
+//Path to a file.
+webpdemux_INCLUDE_PATH:PATH=C:/stuff/programming/C++/msys64/ucrt64/include
+
+//Path to a library.
+webpdemux_LIBRARY:FILEPATH=C:/stuff/programming/C++/msys64/ucrt64/lib/libwebpdemux.dll.a
+
+//Extra link flags of webpdemux
+webpdemux_LINK_FLAGS:STRING=
+
+//Extra link libraries of webpdemux
+webpdemux_LINK_LIBRARIES:STRING=
 
 
 ########################
@@ -425,4 +530,50 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Freetype
+FIND_PACKAGE_MESSAGE_DETAILS_Freetype:INTERNAL=[C:/stuff/programming/C++/msys64/ucrt64/lib/libfreetype.dll.a][C:/stuff/programming/C++/msys64/ucrt64/include/freetype2][v2.13.3()]
+//Details about finding JPEG
+FIND_PACKAGE_MESSAGE_DETAILS_JPEG:INTERNAL=[C:/stuff/programming/C++/msys64/ucrt64/lib/libjpeg.dll.a][C:/stuff/programming/C++/msys64/ucrt64/include][v80()]
+//Details about finding PNG
+FIND_PACKAGE_MESSAGE_DETAILS_PNG:INTERNAL=[C:/stuff/programming/C++/msys64/ucrt64/lib/libpng.dll.a][C:/stuff/programming/C++/msys64/ucrt64/include][v1.6.50()]
+//Details about finding TIFF
+FIND_PACKAGE_MESSAGE_DETAILS_TIFF:INTERNAL=[C:/stuff/programming/C++/msys64/ucrt64/lib/libtiff.dll.a][C:/stuff/programming/C++/msys64/ucrt64/include][ ][v4.7.0()]
+//Details about finding ZLIB
+FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[C:/stuff/programming/C++/msys64/ucrt64/lib/libz.dll.a][C:/stuff/programming/C++/msys64/ucrt64/include][ ][v1.3.1()]
+//Details about finding libjxl
+FIND_PACKAGE_MESSAGE_DETAILS_libjxl:INTERNAL=[C:/stuff/programming/C++/msys64/ucrt64/lib/libjxl.dll.a][C:/stuff/programming/C++/msys64/ucrt64/include][v()]
+//Details about finding webp
+FIND_PACKAGE_MESSAGE_DETAILS_webp:INTERNAL=[C:/stuff/programming/C++/msys64/ucrt64/lib/libwebp.dll.a][C:/stuff/programming/C++/msys64/ucrt64/include][C:/stuff/programming/C++/msys64/ucrt64/lib/libwebpdemux.dll.a][C:/stuff/programming/C++/msys64/ucrt64/include][v()]
+//ADVANCED property for variable: FREETYPE_INCLUDE_DIR_freetype2
+FREETYPE_INCLUDE_DIR_freetype2-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: FREETYPE_INCLUDE_DIR_ft2build
+FREETYPE_INCLUDE_DIR_ft2build-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: FREETYPE_LIBRARY_DEBUG
+FREETYPE_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: FREETYPE_LIBRARY_RELEASE
+FREETYPE_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JPEG_INCLUDE_DIR
+JPEG_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JPEG_LIBRARY_DEBUG
+JPEG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JPEG_LIBRARY_RELEASE
+JPEG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PNG_LIBRARY_DEBUG
+PNG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PNG_LIBRARY_RELEASE
+PNG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PNG_PNG_INCLUDE_DIR
+PNG_PNG_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: TIFF_INCLUDE_DIR
+TIFF_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: TIFF_LIBRARY_DEBUG
+TIFF_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: TIFF_LIBRARY_RELEASE
+TIFF_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_INCLUDE_DIR
+ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
+ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
+ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 
