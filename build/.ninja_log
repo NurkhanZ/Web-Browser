@@ -1,5 +1,14 @@
 # ninja log v7
-9	122	7766218547590009	CMakeFiles/webBrowser.dir/src/FontManager.cpp.obj	72e2ae796957e5cf
-5	1105	7766218547553676	CMakeFiles/webBrowser.dir/src/main.cpp.obj	3e5c1c877b0f4df9
-16	1121	7766218547666381	CMakeFiles/webBrowser.dir/src/SmartWindow.cpp.obj	f09ac897b96faa1
-1121	1254	7766218558718854	webBrowser.exe	702fac5a87e35920
+11	1473	7768803353866368	CMakeFiles/webBrowser.dir/src/FontManager.cpp.obj	72e2ae796957e5cf
+4	1182	7768803353796023	CMakeFiles/webBrowser.dir/src/main.cpp.obj	3e5c1c877b0f4df9
+41	989	7768803354164919	CMakeFiles/webBrowser.dir/src/SmartWindow.cpp.obj	f09ac897b96faa1
+1473	2140	7768803368487786	webBrowser.exe	be3fa2fda8d1d873
+17	560	7768803353926679	CMakeFiles/webBrowser.dir/src/Font_TTCParsing.cpp.obj	4e70b1026ec1cfc2
+32	1186	7768803354084802	CMakeFiles/webBrowser.dir/src/RenderQueue.cpp.obj	2866d6ff994674
+24	1408	7768803353996680	CMakeFiles/webBrowser.dir/src/HTMLDocument.cpp.obj	181aec7da5997dc5
+6	963	7768805239131117	CMakeFiles/webBrowser.dir/src/main.cpp.obj	3e5c1c877b0f4df9
+964	1087	7768805248711886	webBrowser.exe	be3fa2fda8d1d873
+6	938	7768805574877301	CMakeFiles/webBrowser.dir/src/main.cpp.obj	3e5c1c877b0f4df9
+938	1060	7768805584200675	webBrowser.exe	be3fa2fda8d1d873
+5	944	7768806468442581	CMakeFiles/webBrowser.dir/src/main.cpp.obj	3e5c1c877b0f4df9
+945	1063	7768806477839857	webBrowser.exe	be3fa2fda8d1d873
