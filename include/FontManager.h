@@ -23,11 +23,11 @@ enum class FontStyle {
     REGULAR,
     THIN,
     THIN_ITALIC
-}
+};
 
 class FontManager {
     public:
-        FontManager& getInstance();
+        static FontManager& getInstance();
 
         FontManager(const FontManager&) = delete;
 
