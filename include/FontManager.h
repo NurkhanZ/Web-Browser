@@ -8,7 +8,7 @@
 #include <filesystem>
 #include <vector>
 #include "globals.h"
-#include "Font_TTCParsing.h"
+
 
 enum class FontStyle {
     BLACK,

@@ -5,3 +5,4 @@
 #include <iostream>
 
 // #define DEBUG
+static SDL_Color text_BLACK = {0, 0, 0};
