@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/stuff/programming/C++/msys64/ucrt64/include/SDL2"
+                "C:/stuff/programming/C++/msys64/ucrt64/include/SDL2",
+                "C:/stuff/programming/C++/msys64/ucrt64/include/freetype2"
             ],
             "defines": [
                 "_DEBUG",
