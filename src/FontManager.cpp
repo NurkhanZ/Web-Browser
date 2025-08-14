@@ -42,3 +42,24 @@ FontManager::~FontManager(){
     }
     fontCache.clear();
 }
+
+FontManager& FontManager::getInstance(){
+    static FontManager instance;
+    return instance;
+}
+
+TTF_Font* FontManager::getFont(const std::string& fontName, int size, FontStyle style){
+    #ifdef DEBUG
+        std::cout << "FontManager getFont called, looking for " << fontName << std::endl;
+    #endif
+
+    auto key = std::make_tuple(fontName + getStyleString(style), style, size);
+    if(fontCache.find(key) != fontCache.end()){
+        return fontCache[key];
+    }
+
+    #ifdef DEBUG
+        std::cout << "Font not found in cache" << std::endl;
+    #endif
+    
+}
