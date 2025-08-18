@@ -46,42 +46,36 @@ build cmake_object_order_depends_target_webBrowser: phony || .
 
 build CMakeFiles/webBrowser.dir/src/main.cpp.obj: CXX_COMPILER__webBrowser_unscanned_ C$:/Users/User/Desktop/шаг/C++/webBrowser/src/main.cpp || cmake_object_order_depends_target_webBrowser
   DEP_FILE = CMakeFiles\webBrowser.dir\src\main.cpp.obj.d
-  FLAGS = -Wall -Wextra -Wshadow -Wformat=2 -Wunused
   INCLUDES = -IC:/Users/User/Desktop/шаг/C++/webBrowser/include -isystem C:/stuff/programming/C++/msys64/ucrt64/include/SDL2 -isystem C:/stuff/programming/C++/msys64/ucrt64/include/freetype2
   OBJECT_DIR = CMakeFiles\webBrowser.dir
   OBJECT_FILE_DIR = CMakeFiles\webBrowser.dir\src
 
 build CMakeFiles/webBrowser.dir/src/FontManager.cpp.obj: CXX_COMPILER__webBrowser_unscanned_ C$:/Users/User/Desktop/шаг/C++/webBrowser/src/FontManager.cpp || cmake_object_order_depends_target_webBrowser
   DEP_FILE = CMakeFiles\webBrowser.dir\src\FontManager.cpp.obj.d
-  FLAGS = -Wall -Wextra -Wshadow -Wformat=2 -Wunused
   INCLUDES = -IC:/Users/User/Desktop/шаг/C++/webBrowser/include -isystem C:/stuff/programming/C++/msys64/ucrt64/include/SDL2 -isystem C:/stuff/programming/C++/msys64/ucrt64/include/freetype2
   OBJECT_DIR = CMakeFiles\webBrowser.dir
   OBJECT_FILE_DIR = CMakeFiles\webBrowser.dir\src
 
 build CMakeFiles/webBrowser.dir/src/Font_TTCParsing.cpp.obj: CXX_COMPILER__webBrowser_unscanned_ C$:/Users/User/Desktop/шаг/C++/webBrowser/src/Font_TTCParsing.cpp || cmake_object_order_depends_target_webBrowser
   DEP_FILE = CMakeFiles\webBrowser.dir\src\Font_TTCParsing.cpp.obj.d
-  FLAGS = -Wall -Wextra -Wshadow -Wformat=2 -Wunused
   INCLUDES = -IC:/Users/User/Desktop/шаг/C++/webBrowser/include -isystem C:/stuff/programming/C++/msys64/ucrt64/include/SDL2 -isystem C:/stuff/programming/C++/msys64/ucrt64/include/freetype2
   OBJECT_DIR = CMakeFiles\webBrowser.dir
   OBJECT_FILE_DIR = CMakeFiles\webBrowser.dir\src
 
 build CMakeFiles/webBrowser.dir/src/HTMLDocument.cpp.obj: CXX_COMPILER__webBrowser_unscanned_ C$:/Users/User/Desktop/шаг/C++/webBrowser/src/HTMLDocument.cpp || cmake_object_order_depends_target_webBrowser
   DEP_FILE = CMakeFiles\webBrowser.dir\src\HTMLDocument.cpp.obj.d
-  FLAGS = -Wall -Wextra -Wshadow -Wformat=2 -Wunused
   INCLUDES = -IC:/Users/User/Desktop/шаг/C++/webBrowser/include -isystem C:/stuff/programming/C++/msys64/ucrt64/include/SDL2 -isystem C:/stuff/programming/C++/msys64/ucrt64/include/freetype2
   OBJECT_DIR = CMakeFiles\webBrowser.dir
   OBJECT_FILE_DIR = CMakeFiles\webBrowser.dir\src
 
 build CMakeFiles/webBrowser.dir/src/RenderQueue.cpp.obj: CXX_COMPILER__webBrowser_unscanned_ C$:/Users/User/Desktop/шаг/C++/webBrowser/src/RenderQueue.cpp || cmake_object_order_depends_target_webBrowser
   DEP_FILE = CMakeFiles\webBrowser.dir\src\RenderQueue.cpp.obj.d
-  FLAGS = -Wall -Wextra -Wshadow -Wformat=2 -Wunused
   INCLUDES = -IC:/Users/User/Desktop/шаг/C++/webBrowser/include -isystem C:/stuff/programming/C++/msys64/ucrt64/include/SDL2 -isystem C:/stuff/programming/C++/msys64/ucrt64/include/freetype2
   OBJECT_DIR = CMakeFiles\webBrowser.dir
   OBJECT_FILE_DIR = CMakeFiles\webBrowser.dir\src
 
 build CMakeFiles/webBrowser.dir/src/SmartWindow.cpp.obj: CXX_COMPILER__webBrowser_unscanned_ C$:/Users/User/Desktop/шаг/C++/webBrowser/src/SmartWindow.cpp || cmake_object_order_depends_target_webBrowser
   DEP_FILE = CMakeFiles\webBrowser.dir\src\SmartWindow.cpp.obj.d
-  FLAGS = -Wall -Wextra -Wshadow -Wformat=2 -Wunused
   INCLUDES = -IC:/Users/User/Desktop/шаг/C++/webBrowser/include -isystem C:/stuff/programming/C++/msys64/ucrt64/include/SDL2 -isystem C:/stuff/programming/C++/msys64/ucrt64/include/freetype2
   OBJECT_DIR = CMakeFiles\webBrowser.dir
   OBJECT_FILE_DIR = CMakeFiles\webBrowser.dir\src
