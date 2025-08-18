@@ -5,20 +5,20 @@ SmartWindow::SmartWindow(){
         "Hello Window",
         SDL_WINDOWPOS_UNDEFINED,
         SDL_WINDOWPOS_UNDEFINED,
-        700, 300,
+        800, 600,
         SDL_WINDOW_RESIZABLE | SDL_WINDOW_MINIMIZED
     );
 
     w_window = static_cast<UniqueSDLWindow>(Ptr);
 
-    SDL_PixelFormat* PixelFormat = GetSurface()->format;
-    Uint32 RedColor = SDL_MapRGB(PixelFormat, 255, 0, 0);
+    // SDL_PixelFormat* PixelFormat = GetSurface()->format;
+    // Uint32 RedColor = SDL_MapRGB(PixelFormat, 255, 0, 0);
 
-    SDL_FillRect(
-        GetSurface(),
-        nullptr,
-        RedColor
-    );
+    // SDL_FillRect(
+    //     GetSurface(),
+    //     nullptr,
+    //     RedColor
+    // );
 }
 
 SDL_Window* SmartWindow::GetRaw() const {

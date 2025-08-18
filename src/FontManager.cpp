@@ -113,7 +113,7 @@ TTF_Font* FontManager::getFont(const std::string& fontName, int size, FontStyle 
         std::cerr << "Using default font" << std::endl;
         fontNotFound = true;
     }
-    return getFont("Arial", size, style);
+    return getFont("arial", size, style);
 
     return nullptr;
 }

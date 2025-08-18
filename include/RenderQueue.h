@@ -18,7 +18,7 @@ class RenderQueue{
     private:
         RenderQueue();
         void renderNode(Node* node);
-        int x = 0, y= 0;
+        int x = 0, y = 0;
         std::queue<Node*> renderQueue;
         SDL_Renderer *renderer;
         FontManager& fm;

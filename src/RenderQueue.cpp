@@ -30,6 +30,7 @@ void RenderQueue::render(){
 
 void RenderQueue::renderNode(Node* node){
     ElementNode *elementNode = dynamic_cast<ElementNode*>(node);
+
     TextNode *textNode = dynamic_cast<TextNode*>(node);
     if(elementNode){
         // TODO
@@ -50,7 +51,7 @@ void RenderQueue::renderNode(Node* node){
         if(textSurface){
             SDL_Texture* textTexture = SDL_CreateTextureFromSurface(g_renderer, textSurface);
             if(textTexture){
-                SDL_Rect textRect = {100, 100, textSurface->w, textSurface->h};
+                SDL_Rect textRect = {100, 100 + y, textSurface->w, textSurface->h};
                 SDL_RenderCopy(g_renderer, textTexture, NULL, &textRect);
                 SDL_DestroyTexture(textTexture);
             }

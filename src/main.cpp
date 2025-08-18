@@ -2,6 +2,7 @@
 #include <SDL.h>
 // #include "Window.h"
 #include "SmartWindow.h"
+#include "SmartRenderer.h"
 #include "RenderQueue.h"
 
 #define DEBUG
@@ -14,17 +15,11 @@ int initFont();
 void close();
 void checkEvents(SDL_Event event, bool& running);
 
-SDL_Window* g_window = SDL_CreateWindow(
-    "Web Browser",
-    SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
-    1920, 1080,
-    SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
+SmartWindow g_window;
+SDL_Window* pointer_window = g_window.GetRaw();
 
-SDL_Renderer* g_renderer = SDL_CreateRenderer(
-    g_window, 
-    -1,
-     SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
-
+SmartRenderer w_renderer(pointer_window);
+SDL_Renderer* g_renderer = w_renderer.GetRaw();
 
 int main(int argc, char* argv[]){
     if(initWindow() == EXIT_FAILURE ||
@@ -34,7 +29,7 @@ int main(int argc, char* argv[]){
         return EXIT_FAILURE;
        }
 
-    std::string htmlPath = "../html/index.html";
+    std::string htmlPath = "../html/test.html";
     if(argc > 1){
         htmlPath = argv[1];
     }
@@ -57,25 +52,22 @@ int main(int argc, char* argv[]){
         close();
         return EXIT_FAILURE;
     }
-    
+
     HTMLDocument doc(html);
     
-    SmartWindow w_window;
-
     SDL_Event event;
     bool running = true;
+    
+    SDL_SetRenderDrawColor(g_renderer, 255, 255, 255, 255);
+    SDL_RenderClear(g_renderer);
 
     while(running){
-        // ..
         checkEvents(event, running);
-        SDL_SetRenderDrawColor(g_renderer, 255, 255, 255, 255);
-        SDL_RenderClear(g_renderer);
-
+        
         rq.populateQueue(doc.getRoot());
         rq.render();
 
         SDL_RenderPresent(g_renderer);
-        // w_window.render();
     }
     close();
     return EXIT_SUCCESS;
@@ -91,7 +83,7 @@ int initWindow(){
         return EXIT_FAILURE;
     }
 
-    if(!g_window){
+    if(!g_window.GetRaw()){
         std::cerr << "Window couldn't be created" << std::endl;
         return EXIT_FAILURE;
     }
@@ -105,6 +97,7 @@ int initRenderer(){
 
     if(!g_renderer){
         std::cerr << "Renderer couldn't be created" << std::endl;
+        std::cout << "SDL_Error " << SDL_GetError() << std::endl;
         return EXIT_FAILURE;
     }
     return EXIT_SUCCESS;
@@ -139,7 +132,5 @@ void checkEvents(SDL_Event event, bool& running){
 
 void close(){
     TTF_Quit();
-    SDL_DestroyRenderer(g_renderer);
-    SDL_DestroyWindow(g_window);
     SDL_Quit();
 }
