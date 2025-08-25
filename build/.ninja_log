@@ -1,0 +1,16 @@
+# ninja log v7
+5	1007	7777990853382939	CMakeFiles/webBrowser.dir/src/main.cpp.obj	22e462d13f373094
+992	1150	7777992854139786	webBrowser.exe	577ba8d117d845d3
+15	1238	7777990853481427	CMakeFiles/webBrowser.dir/src/Parser.cpp.obj	fa33671202ea0d95
+49	1621	7777666332759126	CMakeFiles/webBrowser.dir/src/SmartWindow.cpp.obj	30238cfc3f9b43f0
+38	1674	7777666332649836	CMakeFiles/webBrowser.dir/src/SmartRenderer.cpp.obj	f69b436f9335fc02
+20	950	7777990853527704	CMakeFiles/webBrowser.dir/src/Text.cpp.obj	e70e40acda82af04
+12	1013	7777990853448675	CMakeFiles/webBrowser.dir/src/GenericTag.cpp.obj	e07c73f4c6a50368
+10	993	7777990853418385	CMakeFiles/webBrowser.dir/src/BreakTag.cpp.obj	8a475ac2ed4b61bb
+5	991	7777992844270007	CMakeFiles/webBrowser.dir/src/BaseTag.cpp.obj	74b79a205e1afadf
+5	904	7777991172740551	CMakeFiles/webBrowser.dir/src/Root.cpp.obj	c505094dadf74e60
+7	611	7778009244140382	CMakeFiles/webBrowser.dir/src/SmartFont.cpp.obj	b309c32534d11997
+5	1004	7778009244125303	CMakeFiles/webBrowser.dir/src/Parser.cpp.obj	fa33671202ea0d95
+1004	1114	7778009254115917	webBrowser.exe	c83bc77013b56572
+6	1006	7778011703791695	CMakeFiles/webBrowser.dir/src/Parser.cpp.obj	fa33671202ea0d95
+1006	1113	7778011713787191	webBrowser.exe	c83bc77013b56572
